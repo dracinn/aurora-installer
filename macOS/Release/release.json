@@ -3,19 +3,19 @@
   "default_channel": "testing",
   "channels": {
     "stable": {
-      "catalog_url": "https://aurorasilicon.org/aurora-distributions/installer/channels/stable/catalog.signed.json"
+      "catalog_url": "https://dracinn.github.io/aurora-distributions/installer/channels/stable/catalog.signed.json"
     },
     "rc": {
-      "catalog_url": "https://aurorasilicon.org/aurora-distributions/installer/channels/rc/catalog.signed.json"
+      "catalog_url": "https://dracinn.github.io/aurora-distributions/installer/channels/rc/catalog.signed.json"
     },
     "testing": {
-      "catalog_url": "https://aurorasilicon.org/aurora-distributions/installer/channels/testing/catalog.signed.json"
+      "catalog_url": "https://dracinn.github.io/aurora-distributions/installer/channels/testing/catalog.signed.json"
     },
     "edge": {
-      "catalog_url": "https://aurorasilicon.org/aurora-distributions/installer/channels/edge-alpha/catalog.signed.json"
+      "catalog_url": "https://dracinn.github.io/aurora-distributions/installer/channels/edge-alpha/catalog.signed.json"
     }
   },
-  "trust_root_fingerprint": "sha256:5e510a663c3765a9a6ffe78085f330f9ba83a11cbd4621385791ec4e98aee5ed",
+  "trust_root_fingerprint": "sha256:3c89dc955380b1ee2cfc6cf65e1b524128f302b3a152bc5a66aad0e718c99c66",
   "helper_mach_service_name": "org.aurorasilicon.installer.helper",
   "helper_code_signing_requirement": "identifier \"org.aurorasilicon.installer.helper\""
 }
