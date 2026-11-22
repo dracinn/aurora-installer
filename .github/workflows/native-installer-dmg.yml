@@ -30,7 +30,7 @@ concurrency:
   cancel-in-progress: false
 jobs:
   build:
-    if: github.repository == 'aurora-silicon/aurora-installer'
+    if: github.repository == 'dracinn/aurora-installer'
     runs-on: macos-26
     timeout-minutes: 90
     env:
@@ -65,7 +65,7 @@ jobs:
           [[ $(uname -m) == arm64 ]]
       - uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09
         with:
-          repository: aurora-silicon/aurora-distributions
+          repository: dracinn/aurora-distributions
           ref: ${{ inputs.profiles-revision }}
           path: delivery
           sparse-checkout: |
