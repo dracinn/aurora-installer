@@ -22,10 +22,10 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / 'scripts'))
 import recovery_payload as aurora_recovery
 
-# Every startup volume shows the Aurora mark: Fedora's, Arch Linux's and
+# Every startup volume shows the Bazzite mark: Fedora's, Arch Linux's and
 # NixOS's logos are not used for Aurora releases without their owners' permission.
 DISTRIBUTION_ICONS = {
-    distribution: ROOT / 'Packaging/DistributionIcons/aurora.icns'
+    distribution: ROOT / 'Packaging/DistributionIcons/bazzite.icns'
     for distribution in ('fedora', 'arch', 'nixos', 'omarchy')
 }
 
